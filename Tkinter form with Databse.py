@@ -61,6 +61,8 @@ def sub():
 
     for row in cursor.execute('SELECT * FROM details '):
         print(row)
+        
+    root.destroy()
 
 
 red_bar = Label(root, text="", bg="dark red")
